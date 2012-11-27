@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1A08DB11664C4D80029399F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A08DB01664C4D80029399F /* UIKit.framework */; };
+		B1A08DB31664C4D80029399F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A08DB21664C4D80029399F /* Foundation.framework */; };
+		B1A08DB51664C4D80029399F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A08DB41664C4D80029399F /* CoreGraphics.framework */; };
+		B1A08DBB1664C4D80029399F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DB91664C4D80029399F /* InfoPlist.strings */; };
+		B1A08DBD1664C4D80029399F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DBC1664C4D80029399F /* main.m */; };
+		B1A08DC11664C4D80029399F /* EzSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DC01664C4D80029399F /* EzSampleAppDelegate.m */; };
+		B1A08DC31664C4D90029399F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC21664C4D90029399F /* Default.png */; };
+		B1A08DC51664C4D90029399F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC41664C4D90029399F /* Default@2x.png */; };
+		B1A08DC71664C4D90029399F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC61664C4D90029399F /* Default-568h@2x.png */; };
+		B1A08DCA1664C4D90029399F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC81664C4D90029399F /* MainStoryboard.storyboard */; };
+		B1A08DCD1664C4D90029399F /* EzSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DCC1664C4D90029399F /* EzSampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1A08DAC1664C4D80029399F /* EzSample_iOS6_Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzSample_iOS6_Lock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A08DB01664C4D80029399F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1A08DB21664C4D80029399F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1A08DB41664C4D80029399F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1A08DB81664C4D80029399F /* EzSample_iOS6_Lock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EzSample_iOS6_Lock-Info.plist"; sourceTree = "<group>"; };
+		B1A08DBA1664C4D80029399F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1A08DBC1664C4D80029399F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1A08DBE1664C4D80029399F /* EzSample_iOS6_Lock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzSample_iOS6_Lock-Prefix.pch"; sourceTree = "<group>"; };
+		B1A08DBF1664C4D80029399F /* EzSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleAppDelegate.h; sourceTree = "<group>"; };
+		B1A08DC01664C4D80029399F /* EzSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzSampleAppDelegate.m; sourceTree = "<group>"; };
+		B1A08DC21664C4D90029399F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1A08DC41664C4D90029399F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1A08DC61664C4D90029399F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1A08DC91664C4D90029399F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B1A08DCB1664C4D90029399F /* EzSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleViewController.h; sourceTree = "<group>"; };
+		B1A08DCC1664C4D90029399F /* EzSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzSampleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1A08DA91664C4D80029399F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A08DB11664C4D80029399F /* UIKit.framework in Frameworks */,
+				B1A08DB31664C4D80029399F /* Foundation.framework in Frameworks */,
+				B1A08DB51664C4D80029399F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1A08DA11664C4D80029399F = {
+			isa = PBXGroup;
+			children = (
+				B1A08DB61664C4D80029399F /* EzSample_iOS6_Lock */,
+				B1A08DAF1664C4D80029399F /* Frameworks */,
+				B1A08DAD1664C4D80029399F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1A08DAD1664C4D80029399F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1A08DAC1664C4D80029399F /* EzSample_iOS6_Lock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1A08DAF1664C4D80029399F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1A08DB01664C4D80029399F /* UIKit.framework */,
+				B1A08DB21664C4D80029399F /* Foundation.framework */,
+				B1A08DB41664C4D80029399F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1A08DB61664C4D80029399F /* EzSample_iOS6_Lock */ = {
+			isa = PBXGroup;
+			children = (
+				B1A08DBF1664C4D80029399F /* EzSampleAppDelegate.h */,
+				B1A08DC01664C4D80029399F /* EzSampleAppDelegate.m */,
+				B1A08DC81664C4D90029399F /* MainStoryboard.storyboard */,
+				B1A08DCB1664C4D90029399F /* EzSampleViewController.h */,
+				B1A08DCC1664C4D90029399F /* EzSampleViewController.m */,
+				B1A08DB71664C4D80029399F /* Supporting Files */,
+			);
+			path = EzSample_iOS6_Lock;
+			sourceTree = "<group>";
+		};
+		B1A08DB71664C4D80029399F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1A08DB81664C4D80029399F /* EzSample_iOS6_Lock-Info.plist */,
+				B1A08DB91664C4D80029399F /* InfoPlist.strings */,
+				B1A08DBC1664C4D80029399F /* main.m */,
+				B1A08DBE1664C4D80029399F /* EzSample_iOS6_Lock-Prefix.pch */,
+				B1A08DC21664C4D90029399F /* Default.png */,
+				B1A08DC41664C4D90029399F /* Default@2x.png */,
+				B1A08DC61664C4D90029399F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1A08DAB1664C4D80029399F /* EzSample_iOS6_Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A08DD01664C4D90029399F /* Build configuration list for PBXNativeTarget "EzSample_iOS6_Lock" */;
+			buildPhases = (
+				B1A08DA81664C4D80029399F /* Sources */,
+				B1A08DA91664C4D80029399F /* Frameworks */,
+				B1A08DAA1664C4D80029399F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzSample_iOS6_Lock;
+			productName = EzSample_iOS6_Lock;
+			productReference = B1A08DAC1664C4D80029399F /* EzSample_iOS6_Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1A08DA31664C4D80029399F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EzSample;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tomohiro Kumagai";
+			};
+			buildConfigurationList = B1A08DA61664C4D80029399F /* Build configuration list for PBXProject "EzSample_iOS6_Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1A08DA11664C4D80029399F;
+			productRefGroup = B1A08DAD1664C4D80029399F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1A08DAB1664C4D80029399F /* EzSample_iOS6_Lock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1A08DAA1664C4D80029399F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A08DBB1664C4D80029399F /* InfoPlist.strings in Resources */,
+				B1A08DC31664C4D90029399F /* Default.png in Resources */,
+				B1A08DC51664C4D90029399F /* Default@2x.png in Resources */,
+				B1A08DC71664C4D90029399F /* Default-568h@2x.png in Resources */,
+				B1A08DCA1664C4D90029399F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1A08DA81664C4D80029399F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A08DBD1664C4D80029399F /* main.m in Sources */,
+				B1A08DC11664C4D80029399F /* EzSampleAppDelegate.m in Sources */,
+				B1A08DCD1664C4D90029399F /* EzSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1A08DB91664C4D80029399F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1A08DBA1664C4D80029399F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1A08DC81664C4D90029399F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1A08DC91664C4D90029399F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1A08DCE1664C4D90029399F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1A08DCF1664C4D90029399F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1A08DD11664C4D90029399F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzSample_iOS6_Lock/EzSample_iOS6_Lock-Prefix.pch";
+				INFOPLIST_FILE = "EzSample_iOS6_Lock/EzSample_iOS6_Lock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1A08DD21664C4D90029399F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EzSample_iOS6_Lock/EzSample_iOS6_Lock-Prefix.pch";
+				INFOPLIST_FILE = "EzSample_iOS6_Lock/EzSample_iOS6_Lock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1A08DA61664C4D80029399F /* Build configuration list for PBXProject "EzSample_iOS6_Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A08DCE1664C4D90029399F /* Debug */,
+				B1A08DCF1664C4D90029399F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A08DD01664C4D90029399F /* Build configuration list for PBXNativeTarget "EzSample_iOS6_Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A08DD11664C4D90029399F /* Debug */,
+				B1A08DD21664C4D90029399F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1A08DA31664C4D80029399F /* Project object */;
+}
