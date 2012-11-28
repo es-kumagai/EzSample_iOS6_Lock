@@ -18,6 +18,12 @@
 		B1A08DC71664C4D90029399F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC61664C4D90029399F /* Default-568h@2x.png */; };
 		B1A08DCA1664C4D90029399F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A08DC81664C4D90029399F /* MainStoryboard.storyboard */; };
 		B1A08DCD1664C4D90029399F /* EzSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DCC1664C4D90029399F /* EzSampleViewController.m */; };
+		B1A08DD51664C5080029399F /* EzSampleDoubleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DD41664C5080029399F /* EzSampleDoubleBase.m */; };
+		B1A08DD81664C6B70029399F /* EzSampleDoubleSynchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DD71664C6B70029399F /* EzSampleDoubleSynchronized.m */; };
+		B1A08DDB1664C7DF0029399F /* EzSampleDoubleRecursiveMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DDA1664C7DF0029399F /* EzSampleDoubleRecursiveMutex.m */; };
+		B1A08DDE1664CB050029399F /* EzSampleDoubleFastMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DDD1664CB050029399F /* EzSampleDoubleFastMutex.m */; };
+		B1A08DE41664EE490029399F /* EzSampleDoubleCheckErrorMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DE31664EE490029399F /* EzSampleDoubleCheckErrorMutex.m */; };
+		B1A08DE71664F9E90029399F /* EzSampleDoubleSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A08DE61664F9E90029399F /* EzSampleDoubleSemaphore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,18 @@
 		B1A08DC91664C4D90029399F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B1A08DCB1664C4D90029399F /* EzSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleViewController.h; sourceTree = "<group>"; };
 		B1A08DCC1664C4D90029399F /* EzSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzSampleViewController.m; sourceTree = "<group>"; };
+		B1A08DD31664C5080029399F /* EzSampleDoubleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleBase.h; sourceTree = "<group>"; };
+		B1A08DD41664C5080029399F /* EzSampleDoubleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleBase.m; sourceTree = "<group>"; };
+		B1A08DD61664C6B70029399F /* EzSampleDoubleSynchronized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleSynchronized.h; sourceTree = "<group>"; };
+		B1A08DD71664C6B70029399F /* EzSampleDoubleSynchronized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleSynchronized.m; sourceTree = "<group>"; };
+		B1A08DD91664C7DF0029399F /* EzSampleDoubleRecursiveMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleRecursiveMutex.h; sourceTree = "<group>"; };
+		B1A08DDA1664C7DF0029399F /* EzSampleDoubleRecursiveMutex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleRecursiveMutex.m; sourceTree = "<group>"; };
+		B1A08DDC1664CB050029399F /* EzSampleDoubleFastMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleFastMutex.h; sourceTree = "<group>"; };
+		B1A08DDD1664CB050029399F /* EzSampleDoubleFastMutex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleFastMutex.m; sourceTree = "<group>"; };
+		B1A08DE21664EE490029399F /* EzSampleDoubleCheckErrorMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleCheckErrorMutex.h; sourceTree = "<group>"; };
+		B1A08DE31664EE490029399F /* EzSampleDoubleCheckErrorMutex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleCheckErrorMutex.m; sourceTree = "<group>"; };
+		B1A08DE51664F9E80029399F /* EzSampleDoubleSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleDoubleSemaphore.h; sourceTree = "<group>"; };
+		B1A08DE61664F9E90029399F /* EzSampleDoubleSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleDoubleSemaphore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,18 @@
 				B1A08DC81664C4D90029399F /* MainStoryboard.storyboard */,
 				B1A08DCB1664C4D90029399F /* EzSampleViewController.h */,
 				B1A08DCC1664C4D90029399F /* EzSampleViewController.m */,
+				B1A08DD31664C5080029399F /* EzSampleDoubleBase.h */,
+				B1A08DD41664C5080029399F /* EzSampleDoubleBase.m */,
+				B1A08DD61664C6B70029399F /* EzSampleDoubleSynchronized.h */,
+				B1A08DD71664C6B70029399F /* EzSampleDoubleSynchronized.m */,
+				B1A08DD91664C7DF0029399F /* EzSampleDoubleRecursiveMutex.h */,
+				B1A08DDA1664C7DF0029399F /* EzSampleDoubleRecursiveMutex.m */,
+				B1A08DDC1664CB050029399F /* EzSampleDoubleFastMutex.h */,
+				B1A08DDD1664CB050029399F /* EzSampleDoubleFastMutex.m */,
+				B1A08DE21664EE490029399F /* EzSampleDoubleCheckErrorMutex.h */,
+				B1A08DE31664EE490029399F /* EzSampleDoubleCheckErrorMutex.m */,
+				B1A08DE51664F9E80029399F /* EzSampleDoubleSemaphore.h */,
+				B1A08DE61664F9E90029399F /* EzSampleDoubleSemaphore.m */,
 				B1A08DB71664C4D80029399F /* Supporting Files */,
 			);
 			path = EzSample_iOS6_Lock;
@@ -177,6 +207,12 @@
 				B1A08DBD1664C4D80029399F /* main.m in Sources */,
 				B1A08DC11664C4D80029399F /* EzSampleAppDelegate.m in Sources */,
 				B1A08DCD1664C4D90029399F /* EzSampleViewController.m in Sources */,
+				B1A08DD51664C5080029399F /* EzSampleDoubleBase.m in Sources */,
+				B1A08DD81664C6B70029399F /* EzSampleDoubleSynchronized.m in Sources */,
+				B1A08DDB1664C7DF0029399F /* EzSampleDoubleRecursiveMutex.m in Sources */,
+				B1A08DDE1664CB050029399F /* EzSampleDoubleFastMutex.m in Sources */,
+				B1A08DE41664EE490029399F /* EzSampleDoubleCheckErrorMutex.m in Sources */,
+				B1A08DE71664F9E90029399F /* EzSampleDoubleSemaphore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +329,7 @@
 				B1A08DD21664C4D90029399F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
